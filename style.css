@@ -17,10 +17,10 @@ body{
     background-size: cover;
     background-position: center;
 }
-.banner_returnal{
+.banner{
     padding-top: 250px;
 }
-.banner_returnal img{
+.banner img{
    width: 200px;
 }
 /* secondary image */
@@ -38,6 +38,8 @@ body{
 .products div:first-child{
     border-bottom: 3px solid #2D64E6;
 }
+/* co-op games */
+
 /* utility */
 .orange_bk{
     background-color:#CD3D0F!important ;
