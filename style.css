@@ -9,7 +9,21 @@ body{
 .nav_2 .chevron{
     width:.5rem;
 }
-
+/* main******************* */
+/* hero_image */
+#hero_image{
+    margin-top: 106px;
+}
+#hero_image>img{
+    width: 100%;
+}
+.container_banner{
+    top: 50%;
+    left: 3%;
+}
+.banner_returnal img{
+   width: 200px;
+}
 /* utility */
 .orange_bk{
     background-color:#CD3D0F ;
