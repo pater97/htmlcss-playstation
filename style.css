@@ -23,6 +23,15 @@ body{
 .banner_returnal img{
    width: 200px;
 }
+/* secondary image */
+.secondary_game img{
+    width: 100%;
+    border-radius: 10%;
+}
+.secondary_game div:first-child img{
+    border: 2px solid #2D64E6;
+    padding: 2px;
+}
 /* utility */
 .orange_bk{
     background-color:#CD3D0F!important ;
