@@ -1,0 +1,25 @@
+/* general */
+body{
+    font-family: 'Public Sans', sans-serif;
+}
+/* header */
+.nav_1 img{
+    width: 5rem;
+}
+.nav_2 .chevron{
+    width: .5rem;
+}
+
+/* utility */
+.orange_bk{
+    background-color:#CD3D0F ;
+}
+.blue_bk{
+    background-color: #2D64E6;
+}
+.dark_blue_bk{
+    background-color:#161C3B ;
+}
+.blue_txt{
+    color: #2D64E6;
+}
