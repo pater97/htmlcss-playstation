@@ -25,19 +25,25 @@ body{
 }
 /* secondary image */
 .secondary_game img{
-    width: 100%;
     border-radius: 10%;
+}
+#how_made img{
+    width: 100%;
 }
 .secondary_game div:first-child img{
     border: 2px solid #2D64E6;
     padding: 2px;
+}
+/* elenco prodotti */
+.products div:first-child{
+    border-bottom: 3px solid #2D64E6;
 }
 /* utility */
 .orange_bk{
     background-color:#CD3D0F!important ;
 }
 .blue_bk{
-    background-color: #2D64E6;
+    background-color: #2D64E6!important;
 }
 .dark_blue_bk{
     background-color:#161C3B ;
