@@ -14,8 +14,6 @@ body{
 #hero_image{
     margin-top: 106px;
     background-image: url(./img2/jumbo-bg.png);
-    background-size: cover;
-    background-position: center;
 }
 .banner{
     padding-top: 250px;
@@ -39,8 +37,20 @@ body{
     border-bottom: 3px solid #2D64E6;
 }
 /* co-op games */
-
+#co_op_game{
+    background-image: url(./img2/it-takes-two-hero-banner-desktop.jpg);
+}
+.it_takes_logo{
+    top: 3rem;
+}
+.it_takes_logo img{
+    width:250px;
+}
 /* utility */
+.background_position{
+    background-size: cover;
+    background-position: center;
+}
 .orange_bk{
     background-color:#CD3D0F!important ;
 }
