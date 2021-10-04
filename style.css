@@ -73,6 +73,13 @@ body{
 #ps_now .hidden_image img{
     width: 100%;
 }
+/* footer********************* */
+footer .fa-playstation{
+    font-size: 100px;
+}
+.logo_sie{
+    width: 100px;
+}
 /* utility */
 .background_position{
     background-size: cover;
@@ -86,7 +93,7 @@ body{
     background-color: #2D64E6!important;
 }
 .dark_blue_bk{
-    background-color:#161C3B ;
+    background-color:#00439C;
 }
 .blue_txt{
     color: #2D64E6;
