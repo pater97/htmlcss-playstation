@@ -60,6 +60,12 @@ body{
 #ps_plus .container{
     padding: 100px 0;
 }
+#ps_plus img:last-child{
+    top: 0;
+    right: 1%;
+    height: 100%;
+    width: auto;
+}
 /* utility */
 .background_position{
     background-size: cover;
@@ -80,4 +86,11 @@ body{
 }
 .light_bk{
     background-color: #D9DADC;
+}
+
+
+@media screen and ( max-width :1024px){
+    #ps_plus img:last-child{
+        display: none;
+    }
 }
