@@ -54,7 +54,7 @@ body{
 #ps_plus{
     background-color: #BEBCBB;
 }
-#ps_plus img{
+#ps_plus img,#ps_now .col-md-6:first-child img{
     width: 400px;
 }
 #ps_plus .container{
@@ -65,6 +65,13 @@ body{
     right: 1%;
     height: 100%;
     width: auto;
+}
+/* play station now */
+#ps_now{
+    background-color: #161C3B;
+}
+#ps_now .hidden_image img{
+    width: 100%;
 }
 /* utility */
 .background_position{
@@ -90,7 +97,7 @@ body{
 
 
 @media screen and ( max-width :1024px){
-    #ps_plus img:last-child{
+    #ps_plus img:last-child,#ps_now .hidden_image{
         display: none;
     }
 }
