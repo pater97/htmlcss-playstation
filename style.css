@@ -115,9 +115,13 @@ nav li:hover{
     width: 100vw;
     visibility: hidden;
 }
-#nav_bar li:focus .hidden_menu{
+#nav_bar li:hover .hidden_menu{
     visibility: visible;
 }
+.hidden_menu .col-1 img:hover{
+    box-shadow:0px 0px 10px 0px black;
+}
+
 /* mediaquery */
 @media screen and ( max-width :1024px){
     #ps_plus img:last-child,#ps_now .hidden_image{
