@@ -22,10 +22,10 @@ body{
    width: 200px;
 }
 /* secondary image */
-.secondary_game img{
+.secondary_game img,#new_game_list img{
     border-radius: 10%;
 }
-#how_made img{
+#how_made img,#new_game_list img{
     width: 100%;
 }
 .secondary_game div:first-child img{
@@ -46,10 +46,15 @@ body{
 .it_takes_logo img{
     width:250px;
 }
+/* lista nuovi giochi */
+#new_game_list{
+    background-color: #1F1F1F;
+}
 /* utility */
 .background_position{
     background-size: cover;
-    background-position: center;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .orange_bk{
     background-color:#CD3D0F!important ;
