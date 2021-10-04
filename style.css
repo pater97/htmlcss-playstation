@@ -101,8 +101,24 @@ footer .fa-playstation{
 .light_bk{
     background-color: #D9DADC;
 }
-
-
+/* effettistica */
+/* navbar */
+nav li:hover{
+    color: #2D64E6;
+    cursor: pointer;
+}
+#nav_bar .hidden_menu{
+    display: flex;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    width: 100vw;
+    visibility: hidden;
+}
+#nav_bar li:focus .hidden_menu{
+    visibility: visible;
+}
+/* mediaquery */
 @media screen and ( max-width :1024px){
     #ps_plus img:last-child,#ps_now .hidden_image{
         display: none;
