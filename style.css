@@ -50,6 +50,16 @@ body{
 #new_game_list{
     background-color: #1F1F1F;
 }
+/* playstation plus */
+#ps_plus{
+    background-color: #BEBCBB;
+}
+#ps_plus img{
+    width: 400px;
+}
+#ps_plus .container{
+    padding: 100px 0;
+}
 /* utility */
 .background_position{
     background-size: cover;
@@ -67,4 +77,7 @@ body{
 }
 .blue_txt{
     color: #2D64E6;
+}
+.light_bk{
+    background-color: #D9DADC;
 }
