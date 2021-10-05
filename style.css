@@ -115,8 +115,15 @@ nav li:hover{
     width: 100vw;
     visibility: hidden;
 }
-#nav_bar li:focus-within .hidden_menu{
+#nav_bar li:hover .hidden_menu{
     visibility: visible;
+}
+#nav_bar li:hover .chevron{
+    transform: rotate(180deg);
+}
+#nav_bar .navbar-nav li .bottone_accedi:hover{
+    background-color:#4980ff!important  ;
+    transition: 1s;
 }
 .hidden_menu .col-1 img:hover{
     box-shadow:0px 0px 10px 0px black;
