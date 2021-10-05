@@ -18,6 +18,7 @@ nav li:hover{
 /* presentazione */
 .presentazione{
     padding: 60px;
+    padding-top: 0;
     background-image: url(https://www.pngkey.com/png/detail/837-8372487_fifa-19-resources-fifa-19-graphics-png.png);
     background-repeat:no-repeat;
     background-size: contain;
@@ -89,6 +90,84 @@ nav li:hover{
 .flip span:nth-child(5){
     background-position-x:-600px ;
     transition-delay: 0.8s;
+}
+/* PRESENTAZIONE CON CARD  */
+    /* whats_better */
+    .whats_better{
+        padding: 100px 0;
+        background-color: #fb215e;
+    }
+/* card animate */
+.container{
+    position: relative;
+    width: 1100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 20px 10px;
+}
+.container .card{
+    max-width: 300px;
+    height: 420px;
+    height: 215px;
+    background-color: white;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+    transition: .3s ease-in-out;
+}
+.container .card:hover{
+    height: 420px;
+}
+.container .card .imgbx{
+    position: relative;
+    background-color: white;
+    top: -60px;
+    left: 20px;
+    min-width: initial;
+    width: 260px;
+    border-radius: 4px;
+    z-index: 1;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+}
+.container .card .imgbx img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+.container .card .content{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    transition-delay: .3s;
+}
+.container .card:hover .content{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: .3s;
+}
+/* VIDEO PRESENTAZIONE  */
+.video_presentation{
+    padding: 5rem 0;
+}
+.video_presentation img{
+    width: 100%;
+}
+.video_presentation img:hover{
+    box-shadow: 0px 0px 15px 2px #7144d3;
+}
+/* fut */
+.fut{
+    background-image: url(https://images.daznservices.com/di/library/GOAL/5f/21/eric-cantona-david-beckham-ferenc-puskas-fifa-21-icons_1bgfi03edvek11rvqsj39qzbly.jpeg?t=-485511003&quality=100);
 }
 /* utility */
 .orange_bk{
