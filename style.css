@@ -121,14 +121,71 @@ nav li:hover{
 .hidden_menu .col-1 img:hover{
     box-shadow:0px 0px 10px 0px black;
 }
+/* bottoni*/
+#hero_image button:hover,#co_op_game button:hover{
+    box-shadow: inset 0px 0px 0px 3px black;
+    transition: 1s;
+}
+#explore .btn:hover,#how_made .btn:hover{
+    background-color:#4980ff!important ;
+    box-shadow: 0px 0px 8px 0px #2266b9;
+   transition: 1s;
+}
 /* how made it  */
+#how_made .col-md-2 img{
+    filter: opacity(.5);
+}
+#how_made .col-md-2:first-child img{
+    filter: opacity(1);
+}
+#how_made .col-md-2:hover img{
+    filter: opacity(1);
+    transition: 1s;
+
+}
+#how_made .col-md-2:hover{
+    color: black!important;
+    transition: 1s;
+}
 #how_made .secondary_game img:hover{
     animation: move 3s;
 }
 @keyframes move {
     0%{
-        transform:translateY(20px);
+        transform:translateY(0px);
     }
+    50%{
+        transform:translateY(-20px);
+    }
+    100%{
+        transform:translateY(0px);
+    }
+}
+/* new_game list */
+#new_game_list .col-lg-2:hover{
+    transform: scale(110%);
+    transition: 1s;
+}
+#new_game_list .col-lg-2:hover img{
+    box-shadow: 0px 0px 20px 2px #2D64E6;;
+}
+/* ps_plus */
+#ps_plus a:hover{
+    box-shadow: 0px 0px 12px 1px white;
+    transition: 1s;
+}
+#discount .col-md-4:hover{
+    border-bottom: 4px solid #2D64E6;
+    padding-bottom: 1rem;
+}
+/* ps now */
+#ps_now a:hover{
+    color:#4980ff!important;
+}
+/* social */
+#social img:hover{
+    border-radius: 50%;
+    transition: 2s;
 }
 /* mediaquery */
 @media screen and ( max-width :1024px){
